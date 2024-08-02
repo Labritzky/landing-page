@@ -5,27 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
+<div class="container-one">
+    <!-- premiere section -->
+    <div id="first_div">
         <nav> 
-            <span>Header Logo</span>
-            <ol>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ol>
+            <ul>
+                <li id="header_logo" class="secondary_text"><a href="">Header Logo</a></li>
+                <li class="secondary_text"><a href="">header link one</a></li>
+                <li class="secondary_text"><a href="">header link two</a></li>
+                <li class="secondary_text"><a href="">header link three</a></li>
+            </ul>
         </nav>
-        <div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
-            <br>
-            <button>Sign up</button>
+        <div class="flex-container">
+            <div id="first_div_text_left">
+                <h1>This website is awesome</h1>
+                <p class="secondary_text">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <div id="first_div_text_right">
+                <div class="div_img">
+                    <span id="photo">this is a placeholder for an image</span>
+                </div>
+            </div>
         </div>
-        <div><img src="" alt=""></div>
     </div>
+</div>
+
+
+<div class="container-two">
+    <!-- 2ieme section -->
+    <div id="second_div">
+        <!-- <div class="flex-container"> -->
+            <!-- <div id="information">
+                <h2>Some random information.</h2>
+            </div> -->
+            <h2>Some random information.</h2>
+            <div class="foursquare">
+                <div class="wrapper">
+                    <div class="square"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                
+                <div class="wrapper">
+                    <div class="square"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+
+                <div class="wrapper">
+                    <div class="square"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+
+                <div class="wrapper">
+                    <div class="square"></div>
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+            </div>
+        <!-- </div> -->
+        
+    
+    </div>
+</div>
+
+<div class="container-three">
+    <!-- 3ieme section -->
+    <div class="third_div">
+        <div class="quote_box">
+            <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
+            <p class="quote_author">-Thor, God of Thunder</p>
+        </div>
+        
+    
+    </div>
+</div>
+
+<div class="container-four">
+    <!-- 4ieme section -->
+    <div class="fourth_div">
+        <div class="cta_div_wrapper">
+            <div class="cta_div">
+                <p id="cta_text">Call to action! It's time!</p>
+                <p id="cta_subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="cta_btn_div">
+                <button id="cta_btn">Sign up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-footer">
+    <!-- footer -->
+    <div id="copyright">
+        <h5>Copyright ©️ The Odin Project 2021</h2>
+    </div>
+</div>
+    
 </body>
 </html>
