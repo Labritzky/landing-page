@@ -34,11 +34,11 @@ body{
 }
 
 #first_div{
-    padding-inline: 100px;    
+    padding-inline: 200px;    
 }
 
 #second_div{
-    padding-inline: 150px; 
+    padding-inline: 20%; 
     padding-bottom: 50px;
 }
 
@@ -47,7 +47,7 @@ body{
     border: 2px;
     background-color: #3882f6;
     border-radius: 7px;
-    margin-inline: 10%;
+    margin-inline: 180px;
 }
 
 
@@ -127,7 +127,7 @@ h1{
 h2{
     padding-block: 40px;
     margin: 0%;
-    padding-inline: 30%;
+    padding-inline: 25%;
 }
 
 p{
@@ -150,16 +150,23 @@ button{
     margin-inline: 20%;
 }
 
+#information_text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .foursquare{
     display: flex;
     gap: 50px;
-    justify-content: center;
+    padding-inline: 40px;
+    
 }
 
 .square{
-    height: 160px;
+    height: 150px;
     width: auto;
-    border: 2px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 10px;
 }
 
